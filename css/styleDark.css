@@ -1,0 +1,28 @@
+
+
+body{
+    --black: #000000ff;
+    --oxford-blue: #14213dff;   
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+    background: rgb(15,37,19);
+    background: linear-gradient(180deg, rgba(15,37,19,1) 0%, rgba(7,60,22,0.8897759787508753) 31%, rgba(4,121,44,0.8645658947172619) 100%) fixed; 
+    color: var(--platinum);
+    overflow: hidden;
+}
+#container{
+    
+    /* place in center */
+    margin: 10% auto;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-color: #212529;
+    padding: 2.5rem;
+}
+@media screen and (min-width: 800px){
+    #container{
+        width: 800px;
+    }
+}
